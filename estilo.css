@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+	background-color: gray;
+	margin:0;
+	height: 100vh;	
+}
+
+p {
+	color: white;
+}
+
+.container {
+	background-color: red;
+	min-height:100%;	
+}
+
+.empurra {
+	background-color: green;
+	height: 3200px;
+	float: left;
+	width: 15%;		
+}
+
+.menu {
+	background-color: purple;
+	height: 100%;
+	width:15%;
+	text-align: center;
+	position: fixed;
+	z-index:999;
+}
+
+.conteudoamarelo {
+	background-color: yellow;
+	height: 800px;
+}
+
+.conteudolaranja {
+	background-color: orange;
+	height: 800px;
+}
